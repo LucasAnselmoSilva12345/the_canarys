@@ -1,0 +1,510 @@
+.logo a {
+  font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+a.mobile-logo {
+  font-size: 1.375rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+.bg-image-index {
+  background-image: url("../images/banner/bg_index.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-image-historia{
+  background-image: url("../images/banner/bg_historia.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-image-galery{
+  background-image: url("../images/banner/bg_somos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-image-time{
+  background-image: url("../images/banner/bg_time.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-image-blog{
+  background-image: url("../images/banner/bg_blog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.single-banner-p p {
+  padding-bottom: 10px;
+}
+
+.btn-home {
+  background: #f2f3f4;
+  color: #222;
+  padding: 11px 30px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  transition: 400ms;
+}
+
+.btn-home:hover {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.about-content p {
+  margin-bottom: 35px;
+}
+
+.about-content a{
+  background: #192531;
+  padding: 11px 30px;
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 400ms;
+}
+
+.about-content a:hover{
+  background: transparent;
+  color: #192531;
+  border: 2px solid #192531;
+}
+
+.section-title-index h6 {
+  color: #47BB8F;
+  font-size: 1.25rem;
+}
+
+.section-title-index h2 {
+  font-size: 3rem;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.service-image img {
+  width: 50%;
+  height: 200px;
+  border-radius: 24px;
+  margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .service-image img {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .service-image img {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .service-image img {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+.service-content-index h4 {
+  color: #f2f2f2;
+  font-size: 1.625rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.service-content-index p {
+  margin-bottom: 15px;
+}
+
+.service-content-index a {
+  padding: 5px 11px;
+  background: transparent;
+  border: 1px solid #f2f3f4;
+  border-radius: 8px;
+  color: #fff;
+  transition: 500ms;
+}
+
+.service-content-index a:hover {
+  background: #f2f3f4;
+  color: #16171e;
+}
+
+.footer-widget-about {
+  padding-top: 15px;
+}
+
+.text-a a {
+  font-size: 1.25rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  color: #f2f3f4;
+  text-transform: uppercase;
+}
+
+.text-a a span {
+  font-size: 1.25rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  color: #ffd300;
+  text-transform: uppercase;
+}
+
+/* QUEM SOMOS */
+.breadcrumb-area {
+  background: url("../images/banner/bg_galeria.jpg") no-repeat scroll center
+    center;
+  background-image: url("../images/banner/bg_galeria.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.service-content h4 {
+  color: #102d49;
+}
+
+.section-title h2 {
+  color: #102d49;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.section-title strong {
+  color: #185694;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+.service:hover {
+  transform: translateY(-15px);
+}
+
+/* .service-image img {
+  height: 128px;
+  width: 128px;
+} */
+
+.service-content h4 {
+  color: #c43232;
+}
+
+/* MEMBROS */
+.breadcrumb-area-membros {
+  background: url("/images/banner/bg_membros.jpg") no-repeat scroll;
+  background-image: url("/images/banner/bg_membros.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.about {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.column img {
+  max-width: 100%;
+  padding: 50px 0;
+}
+
+.column h1 {
+  font-size: 1.375rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: #5a545a;
+  margin-bottom: 25px;
+  margin-left: 80px;
+  background-color: tomato;
+}
+
+.column p {
+  font-size: 1.125rem;
+  color: #747474;
+  margin-left: 80px;
+}
+
+.team-thumb {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.team-thumb img {
+  border-radius: 6px;
+}
+
+.space_padding {
+  padding-bottom: 35px;
+}
+
+.team-conetnt-info h5 a {
+  font-size: 1.25rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.team-social-icons .facebook {
+  max-width: 8%;
+}
+
+.team-social-icons .twitter {
+  max-width: 8%;
+}
+
+.team-social-icons .instagram {
+  max-width: 8%;
+}
+
+.team-social-icons .linkedin {
+  max-width: 8%;
+}
+
+
+/* HISTORIA */
+.service-content-h4 h4{
+  font-family: "Ubuntu", sans-serif;
+  color: #2f5780;
+}
+
+.service-content-h4 span{
+  color: #e74949;
+  font-weight: bold;
+}
+
+.service-content-h4 a{
+  color: rgb(27, 15, 15);
+}
+
+.about-content-video h2 {
+  font-family: "Ubuntu", sans-serif;
+  color: #f2f2f2;
+  font-size: 48px;
+  font-weight: 700;
+  padding-right: 80px;
+  margin-bottom: 30px; 
+}
+
+/* BLOG */
+.pg-blog{
+  margin: 50px auto;
+  justify-content: center;
+  max-width: 80%;
+}
+
+/* TEAM */
+.section_team{
+  padding: 10rem 0;
+  background-color: #fff;
+}
+
+.heading{
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  font-family: "Ubuntu", sans-serif;
+  margin-right: -3px;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: #333;
+  position: relative;
+}
+
+.heading::after{
+  content: '';
+  width: 10rem;
+  height: .8rem;
+  background-color: #45e19f;
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2rem;
+}
+
+.card_wrapper{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.card{
+  width: 32rem;
+  background-color: #ebeef8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2);
+}
+
+.card .card_img{
+  width: 100%;
+  height: 26rem;
+  object-fit: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+}
+
+.profile_img{
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: -11rem;
+  z-index: 999;
+  border: 1rem solid #ebeef8;
+}
+
+.card h1{
+  font-size: 2.5rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #222;
+  margin: 1.5rem 0;
+}
+
+.job_title{
+  color: #777;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.about{
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  text-align: center;
+  color: #333;
+}
+
+.card .btn_team{
+  padding: 1rem 2.5rem;
+  background-color: #445ae3;
+  border-radius: 2rem;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  color: #eee;
+  font-size: 1.4rem;
+  transition: all .5s;
+}
+
+.card .btn_team:hover{
+  transform: translateY(-2px);
+  box-shadow: .5rem .5rem 2rem rgba(0,0,0,.2);
+}
+
+.card .btn_team:active{
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.social_media{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+  margin-top: 1.5rem;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.social_media i{
+  font-size: 3rem;
+  transition: color .5s;
+}
+
+.fa-facebook-square{
+  color: #3b5999;
+}
+
+.fa-twitter-square{
+  color: #55acee;
+}
+
+.fa-instagram{
+  color: #e6683c;
+}
+
+.fa-linkedin{
+  color: #3b5999;
+}
+
+.fa-facebook-square:hover, 
+.fa-twitter-square:hover, 
+.fa-instagram:hover, 
+.fa-linkedin:hover{
+  color: #45e19f;
+}
+
+@media screen and (min-width: 700px){
+  .card_wrapper{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card{
+    margin: 2rem;
+  }
+}
+
+/* MOBILE */
+.mobile-menu-wrapper{
+ display: none;
+}
+
+.video_youtube iframe{
+  margin: 100px auto auto 15px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .video_youtube iframe{
+    margin: 50px 15px 30px 15px;
+    max-width: 95%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .video_youtube iframe{
+    margin: 50px 15px 30px 15px;
+    max-width: 95%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .video_youtube iframe{
+    margin: 50px 15px 30px 15px;
+    max-width: 95%;
+  }
+}
