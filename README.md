@@ -12,7 +12,7 @@ os alunos novos da escola técnica onde o grupo curso o técnico em informática
 
 <p>
   Link para acessar o site:
-  <a href="">The Canarys</a>
+  <a href="https://epic-yonath-3c8657.netlify.app/">The Canarys</a>
 </p>
 
 ## Aplicação 💾
