@@ -42,7 +42,7 @@ os alunos novos da escola técnica onde o grupo curso o técnico em informática
 
 ### Imagem do inicio da index da aplicação 🖨️
 
-<p width="100%">
+<p width="100%" text-align="center">
   <a data-flickr-embed="true" href="https://www.flickr.com/photos/190690980@N06/51251523058/in/dateposted-public/" title="Captura da Web_16-6-2021_15751_127.0.0.1"><img src="https://live.staticflickr.com/65535/51251523058_7c2d637a7e_b.jpg" width="367" height="1024" alt="Captura da Web_16-6-2021_15751_127.0.0.1"></a>
 </p>
 
